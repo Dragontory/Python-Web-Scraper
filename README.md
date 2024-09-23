@@ -11,4 +11,6 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
+# Run Application
 
+streamlit run main.py
