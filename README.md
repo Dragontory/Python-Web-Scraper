@@ -1,6 +1,6 @@
 # Python-Web-Scraper
 
-# Install Python
+# Install Python and Ollama
 
 # Activate Virtual Environment
 python -m venv venv
