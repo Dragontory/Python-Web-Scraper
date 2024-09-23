@@ -11,6 +11,8 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
+# Download appropriate chrome web driver 
+
 # Run Application
 
 streamlit run main.py

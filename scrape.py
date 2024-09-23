@@ -1,5 +1,6 @@
 import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.service import Service
+import time
 
 def scrape_website(website): 
     print("Launching browser...")
@@ -15,6 +16,7 @@ def scrape_website(website):
         driver.get(website)
         print("Page Loaded...")
         html = driver.page_source
+        time.sleep(10)
 
         return html
     
